@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(50, 50)">
+        <!-- HNU Logo -->
+        <text x="0" y="150" style="font-size: 200px; font-weight: bold; font-family: Arial;">HNU</text>
+        <!-- University Name -->
+        <text x="0" y="250" style="font-size: 40px; font-family: Arial;">Hochschule Neu-Ulm</text>
+        <text x="0" y="300" style="font-size: 40px; font-family: Arial;">University of Applied Sciences</text>
+    </g>
+</svg>
