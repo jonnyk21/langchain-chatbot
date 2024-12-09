@@ -33,13 +33,16 @@ class Chatbot:
         
         # Initialize OpenAI client with streaming
         self.chat = ChatOpenAI(
+            api_key=os.getenv("OPENAI_API_KEY"),
             model=os.getenv("OPENAI_MODEL_NAME"),
             temperature=0.7,
             streaming=True
         )
         
         # Initialize embeddings
-        self.embeddings = OpenAIEmbeddings()
+        self.embeddings = OpenAIEmbeddings(
+            api_key=os.getenv("OPENAI_API_KEY")
+        )
         
         # Initialize RAG system once
         if not self.use_graph:
